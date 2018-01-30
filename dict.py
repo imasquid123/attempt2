@@ -15,8 +15,6 @@ import json
 class CredentialExchange:
 #put creds in holder
 
-store = oauth2client.file.Storage
-
 def putcredentials(credential_holder):
     store.locked_put(credential_holder)
     
