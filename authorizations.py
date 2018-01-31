@@ -30,4 +30,5 @@ theform = gspread.open_by_url(https://docs.google.com/forms/d/16ranH8mONW_E940YF
 class UserCredentialExchange:
 #put creds in holder
 def putusercredentials(usr_credential_holder):
-    store.locked_put(usr_credential_holder)
+	usercred = store.locked_get()
+    usercred.locked_put(usr_credential_holder)
