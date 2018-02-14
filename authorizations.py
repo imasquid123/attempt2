@@ -1,3 +1,4 @@
+
 from __future__ import print_function 
 
 #compatability package recommended in google api thing
@@ -6,8 +7,7 @@ import oauth2client.file
 #lets me open spreadsheet by url :D
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-#pandas- lib for data analysis
-import pandas as pd
+
 #hold secretysecret file
 import json
 
